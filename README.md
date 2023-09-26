@@ -78,7 +78,7 @@ http://localhost:3000/api/automobiles/filter
 ```
 
 ## Filter Automobiles for Agents
-- Description: Filters automobiles based on specific criteria and increases popularity if the user is an agent.
+- Description: Filters automobiles based on specific criteria.
 - HTTP Method: GET
 - Route: /automobiles/filter/agent
 ```shell
