@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 
 import environment from "./config/environment.js";
+import automobileRoutes from "./routes/automobileRoutes.js";
 
 // Environment variables
 const { PORT, HOST } = environment;
@@ -11,6 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
+app.use("/api", automobileRoutes);
 
 // Start server
 async function startServer() {
