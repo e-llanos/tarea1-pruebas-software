@@ -10,3 +10,5 @@ export const engines = {
 };
 export const truckCabins = ['1', '2'];
 export const suvSunroofs = ['Yes', 'No'];
+export const minPrice = 8000000;
+export const maxPrice = 30000000;
